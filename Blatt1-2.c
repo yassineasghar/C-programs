@@ -16,7 +16,7 @@ int main(void){
     
     V = M_PI*pow(r,2)*h ;       // M_PI from <Math> and M_PI = 3.141593
     
-    printf("Das Volumen eines Zylinders ist  V = %lf \n",V);
+    printf("Das Volumen eines Zylinders ist  V = %.2lf \n",V);
     
     
     return 0 ;
