@@ -1,4 +1,5 @@
-// Correction of C-code provided on Exercise sheet n° 1 - exercise 7 :
+// Correction of C-code provided on Exercise sheet n° 1 - exercise 7  :
+// find the original C-code also on the same repository under aufg1-7.c : 
 
 
 /* Datei aufg1-7.c */
