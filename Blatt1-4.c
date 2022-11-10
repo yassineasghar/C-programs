@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 
-int main(){
+int main(void){
     // Variable :
     float Fallzeit , Vmax_ms , Vmax_kmh , h , g = 9.81 ;
         
@@ -26,10 +26,5 @@ int main(){
    printf("> Die Endegeschwindigkeit in km.h⁻¹ beträgt :\tVmax = %.3f km.h⁻¹\n\n",Vmax_kmh);
    printf("> Die Fallzeit  beträgt :\tFallzeit = %.3f s \n\n",Fallzeit);
     
-
-
-
-
-    
-    
+return 0 ;   
 }
