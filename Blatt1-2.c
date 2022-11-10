@@ -7,7 +7,7 @@ int main(void){
     
     double V , r , h ;          // V = Volumen ; r = Radius ; h = Höhe
     
-    printf("Achtung : der Radius r und die Höhe h müssen positive eingegeben\n");
+    printf("Achtung : der Radius r und die Höhe h müssen positive sein !!\n");
     
     printf("Bitte der Radius r eingeben :\t");
         scanf("%lf",&r);            // hier wird der Radius Wert gespeichert
