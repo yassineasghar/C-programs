@@ -6,7 +6,7 @@ int main(void){
     float Fallzeit , Vmax_ms , Vmax_kmh , h , g = 9.81 ;
         
     // Engabe der Höhe :
-    printf("\n> Bitte gib die Höhe in metern eine:\t");
+    printf("\n> Bitte gib die Höhe in metern ein:\t");
     scanf("%f",&h);
     printf("\n");
         
