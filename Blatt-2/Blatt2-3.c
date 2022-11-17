@@ -15,33 +15,33 @@ int main(void) {
     scanf("%f", &b);
     printf("Bitte gib den  Koeffizient c ein:\t");
     scanf("%f", &c);
+    printf("\nP(x) =  (%.2f)x² + (%2.f)x + (%.2f)c \n\n",a ,b ,c);
 
     p = b/a ;
     q = c/a ;
-
     D = ((p*p)/4)-q ;
 
     if(D == 0){
         X = (-p)/2;
-        printf("> Die quadratische Gleichung hat 1 reelle Lösung:\t X = %.2f \n", X);
+        printf("> P(x) = 0 hat 1 reelle Lösung:\t X = %.2f \n\n", X);
     }
 
     else if(D > 0){
         X1 = ((-p)/2)-sqrt(D);
         X2 = ((-p)/2)+sqrt(D);
-        printf("> Die quadratische Gleichung hat 2 reelle Lösungen :\t X1 = %.2f und X2 = %.2f \n",X1 ,X2);
+        printf("> P(x) = 0 hat 2 reelle Lösungen :\t X1 = %.2f und X2 = %.2f \n\n",X1 ,X2);
     }
+    
     else{
         X11 = ((-p)/2) ;
         X21 = ((-p)/2) ;
         X12 = -sqrt(-D) ;
         X22 = sqrt(-D) ;
 
-        printf("> Die quadratische Gleichung hat 2 komplexe Lösungen:\n ");
-        printf("X1 = %.2f %.2fi und X2 = %.2f+%.2fi \n",X11 , X12 ,X21 ,X22);
+        printf("> P(x) = 0 hat 2 komplexe Lösungen:\n ");
+        printf("\nX1 = %.2f%.2fi \nX2 = %.2f+%.2fi \n\n",X11 , X12 ,X21 ,X22);
     }
 
 
 return 0 ;
 }
-
