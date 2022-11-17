@@ -14,7 +14,7 @@ int main(void){
     y = (Einkommen - 7664)/10000 ;
     z = (Einkommen - 12739)/10000 ;
     
-    if(Einkommen < 0 || Einkommen < 7664){
+    if(Einkommen < 7664){
         printf("Steuer = 0 €\n");
     }
     
