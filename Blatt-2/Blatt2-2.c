@@ -7,10 +7,10 @@ int main(void){
     
     float Weight ;
     float Angebot1 , Angebot2 , Angebot3 ;
-    char Char[1000] = ;
+    
     printf("Bitte gib die Abnahmemenge ein :\t");
         scanf("%f", &Weight);
-    while (Weight <0 || Weight = Char) {
+    while (Weight <0) {
         printf("Inkorrekte Eingabe , Bitte nochmal versuchen :\t");
         scanf("%f",&Weight);
     }
