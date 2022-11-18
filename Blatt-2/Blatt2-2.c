@@ -29,7 +29,7 @@ int main(void){
     
     else{
         Angebot1 = LP1 ;
-        printf("Preis 1 = %.2f €\n",Angebot1);
+        printf("Preis 1 = %.2f €\n", Angebot1);
     }
     
     // Preis 2 :
@@ -37,13 +37,13 @@ int main(void){
     RR2 = LP2 - LP2*0.05 ;
     
     if(15000 <= Abnahme){
-        Angebot2 = RR2 - RR2*0.03;
+        Angebot2 = RR2 - RR2*0.03 ;
         printf("Preis 2 = %.2f €\n", Angebot2);
     }
     
     else{
         Angebot2 = LP2 - LP2*0.03 ;
-        printf("Preis 2 = %.2f €\n",Angebot2);
+        printf("Preis 2 = %.2f €\n", Angebot2);
     }
     
     // Preis 3 :
@@ -51,13 +51,13 @@ int main(void){
     RR3 = LP3 - LP3*0.035 ;
     
     if(3000 <= Abnahme){
-        Angebot3 = RR3 - RR3*0.02;
+        Angebot3 = RR3 - RR3*0.02 ;
         printf("Preis 3 = %.2f €\n", Angebot3);
     }
     
     else{
         Angebot3 = LP3 - LP3*0.02 ;
-        printf("Preis 3 = %.2f €\n",Angebot3);
+        printf("Preis 3 = %.2f €\n", Angebot3);
     }
     
     
