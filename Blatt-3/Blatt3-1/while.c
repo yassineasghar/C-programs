@@ -2,7 +2,8 @@
 
 int main (void)
 {
-    double Basis , Exponent ,Ergebnis = 1 ;
+    double Basis ,Ergebnis = 1 ;
+    int Exponent ;
     
     printf("Ein Basis eingeben:\t");
     scanf("%lf", &Basis);
