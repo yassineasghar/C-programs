@@ -6,7 +6,6 @@ double potenz(double Basis  , int Exponent){
     for(int i = 1 ; i < Exponent ; i++){
         Ergebnis = Ergebnis* Basis;
         }
-    
     return Ergebnis;
 }
 
