@@ -1,19 +1,21 @@
+
 #include <stdio.h>
 #include <stdlib.h>
 
 int main(void){
 
 float Ergebnis;
-float Eingabe ;
+float Basis;
+float Exponent;
+printf("Eine Basis Zahl eingeben :\t");
+        scanf("%f",&Basis);
 
-printf("Eine positive Zahl eingeben :\t");
-        scanf("%f",&Eingabe);
-
-while(Eingabe < 0 ){
+while(Basis < 0 ){
 
 printf("Falche Eingabe :\t");
-        scanf("%f",&Eingabe);
+        scanf("%f",&Basis);
 }
-
+for(i
 return 0;
 }
+ // CS ... 
