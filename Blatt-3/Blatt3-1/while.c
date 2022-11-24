@@ -1,7 +1,7 @@
 # include <stdio.h>
 
-int main (void)
-{
+int main (void){
+    
     double Basis ,Ergebnis = 1 ;
     int Exponent ;
     
