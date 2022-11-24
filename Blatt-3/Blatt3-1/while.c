@@ -9,11 +9,11 @@ int main (void){
     scanf("%lf", &Basis);
 
     printf("Ein Exponent eingeben:\t");
-    scanf("%lf", &Exponent);
+    scanf("%d", &Exponent);
     
     while (Exponent < 0) {
             printf("Negative Exponenten sind unwillkommen:\t");
-            scanf("%lf", &Exponent);
+            scanf("%d", &Exponent);
             }
     
     while (Exponent --> 0){
