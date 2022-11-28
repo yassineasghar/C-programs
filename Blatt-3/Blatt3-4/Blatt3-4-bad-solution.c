@@ -19,7 +19,7 @@ double Ergebnis2 = 0.0 ;
 double SummeErgebnis = 0.0 ;
 double Glieder = (x - 1) ;
 
-if(x == 0) return 0;
+if(x == 1) return 0;
 
 // Für alle Zahlen : 
 for (i = 1 ; i < m ; i++){
