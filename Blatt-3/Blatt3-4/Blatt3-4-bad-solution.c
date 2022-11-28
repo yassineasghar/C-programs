@@ -18,8 +18,7 @@ double Ergebnis1 = 0.0 ;
 double Ergebnis2 = 0.0 ;
 double SummeErgebnis = 0.0 ;
 double Glieder = (x - 1) ;
-	
-if(x == 0) return printf("OOPS !!");
+
 if(x == 1) return 0;
 
 // Für alle Zahlen : 
@@ -47,13 +46,12 @@ printf("Eine Zahl X eingeben :\t ");
 scanf("%lf",&x);
 
 // Loop wenn x < 0 oder x > 2 : 
-if(x < 0 || x >2){
+while(x <= 0 || x > 2){
 printf("Achtung : x muss positive und x <= 2\n");
 printf("Nochmal versuchen :\t");
 scanf("%lf",&x);
 }
-else{
-printf(">\tln(%.2lf) = %.3lf \n", x ,logarithmus(x));
-}
+printf("Ergebnis :\t %lf \n",logarithmus(x));
+
 return 0;
 }
