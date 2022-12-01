@@ -11,22 +11,17 @@ int Quersumme(int a){
     return  qs;
 }
 
-// Mit ** Einsetzen :
-
-int Replace(int b){
-    if (Quersumme(b) == 7 && Quersumme(b) % 7 == 0){
-        return printf("**") ;
-    }
-    else return Quersumme(b);
-}
-
 // Main : 
 
 int main(void) {
     int Zahl = 0 ;
-    
+
     while (Zahl <= 99) {
-        printf("%02d  ", Quersumme(Zahl));
+        if(Quersumme(Zahl) == 7 || Quersumme(Zahl) % 7 == 0) {
+            printf("**\t");
+        }else{
+            printf("%02d\t", Quersumme(Zahl));
+        }
         Zahl++;
         if (Zahl%10 == 0)printf(" \n");
     }
