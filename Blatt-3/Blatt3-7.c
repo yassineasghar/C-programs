@@ -33,7 +33,7 @@ int main(void) {
     scanf("%ld", &Second);
     
     // input < 0 - loop :
-    // Desclaimer : Do not test using CHARS !!!!
+    // Desclaimer : Do not test  CHARS !!!!
     while(Second < 0 ){
         printf("Negative Zahlen sind unwillkomen!\n");
         printf("Nochmal Versuchen:\t");
