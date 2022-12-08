@@ -109,9 +109,9 @@ int main(void) {
     // Input: 604800 --> Output: 1 Woche | 0 Tag | 00:00:00
     // TC 6 :
     // 1000000000 Seconds - Output : 1653 Wochen | 3 Tage | 01:46:40
+    //
     // Use this guy to convert : Seconds -> Week,Day,Hour,...
     // https://www.unitjuggler.com/convert-time-from-s-to-week.html
-    //
     */
     return 0;
 }
