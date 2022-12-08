@@ -1,7 +1,6 @@
 // Libs :
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
 
 // Main function :
 int main(void) {
