@@ -11,13 +11,13 @@ int Quersumme(int a){
     return  qs;
 }
 
-// Main : 
+// Main :
 
 int main(void) {
     int Zahl = 0 ;
 
     while (Zahl <= 99) {
-        if(Quersumme(Zahl) == 7 || Quersumme(Zahl) % 7 == 0) {
+        if(Quersumme(Zahl) == 7 && Zahl % 7 == 0) {
             printf("**\t");
         }else{
             printf("%02d\t", Zahl);
