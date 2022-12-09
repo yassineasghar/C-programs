@@ -20,7 +20,7 @@ int main(void) {
         if(Quersumme(Zahl) == 7 || Quersumme(Zahl) % 7 == 0) {
             printf("**\t");
         }else{
-            printf("%02d\t", Quersumme(Zahl));
+            printf("%02d\t", Zahl);
         }
         Zahl++;
         if (Zahl%10 == 0)printf(" \n");
