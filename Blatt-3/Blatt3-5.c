@@ -52,8 +52,6 @@ int main(void){
     printf("Eine zweite Zahl eingeben:\t");
     scanf("%lf", &Zahl2);
     
-    
-    
     printf("Druck die '=' Taste:\t");
     scanf(" %c", &UserTaste[0]);
     
