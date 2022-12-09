@@ -68,7 +68,9 @@ int main(void){
                 default:
                     printf("Operator '%c' war nicht korrekt \n", Operator);
             }
-    }else{
+    }
+    
+    else{
         printf("Bitte '=' Taste Drucken !!\n");
     
     }
