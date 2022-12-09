@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <ctype.h>
+
 
 // Summe :
 double Summe(double a , double b){
@@ -45,11 +45,14 @@ int main(void){
     printf("Eine erste Zahl eingeben:\t");
     scanf("%lf", &Zahl1);
     
+    fflush(stdin);
+    printf("Ein Operator auswählen:\t");
+    scanf(" %c", &Operator);
+    
     printf("Eine zweite Zahl eingeben:\t");
     scanf("%lf", &Zahl2);
     
-    printf("Ein Operator auswählen:\t");
-    scanf(" %c", &Operator);
+    
     
     printf("Druck die '=' Taste:\t");
     scanf(" %c", &UserTaste[0]);
