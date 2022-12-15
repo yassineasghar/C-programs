@@ -15,7 +15,7 @@ int main(void) {
     scanf("%f", &b);
     printf("Bitte gib den  Koeffizient c ein:\t");
     scanf("%f", &c);
-    printf("\nP(x) =  (%.2f)x² + (%2.f)x + (%.2f)c \n\n",a ,b ,c);
+    printf("\nP(x) =  (%.2f)x² + (%.2f)x + (%.2f)c \n\n",a ,b ,c);
 
     p = b/a ;
     q = c/a ;
